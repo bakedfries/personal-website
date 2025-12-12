@@ -1,0 +1,125 @@
+
+import { GalleryItem, Project } from './types';
+
+export const PROJECTS: Project[] = [
+  {
+    id: '1',
+    title: 'Predictive Market Analysis',
+    description: 'A machine learning model predicting stock volatility using LSTM networks and sentiment analysis from financial news APIs.',
+    tags: ['Python', 'TensorFlow', 'NLP', 'Pandas'],
+    category: 'Data Science',
+    link: '#',
+  },
+  {
+    id: '2',
+    title: 'Distributed Ledger System',
+    description: 'A lightweight blockchain implementation in Go, featuring a custom consensus algorithm and peer-to-peer networking.',
+    tags: ['Go', 'Distributed Systems', 'Cryptography'],
+    category: 'CS',
+    link: '#',
+  },
+  {
+    id: '3',
+    title: 'EcoTrack Visualization',
+    description: 'Interactive dashboard visualizing global carbon emission data over the last 50 years using D3.js and React.',
+    tags: ['React', 'D3.js', 'Data Viz'],
+    category: 'Data Science',
+    link: '#',
+  },
+  {
+    id: '4',
+    title: 'Compiler Construction',
+    description: 'A custom compiler for a subset of the C language, written in C++. Includes lexical analysis, parsing, and code generation.',
+    tags: ['C++', 'LLVM', 'Compilers'],
+    category: 'CS',
+    link: '#',
+  },
+];
+
+export const GALLERY_ITEMS: GalleryItem[] = [
+  {
+    id: '1',
+    type: 'PHOTO',
+    title: 'Morning Fog',
+    imageUrl: 'https://picsum.photos/600/800?random=1',
+    aspect: 'tall',
+    caption: 'Captured at 5 AM in the Smokies.',
+  },
+  {
+    id: '2',
+    type: 'BOOK',
+    title: 'The Unbearable Lightness of Being',
+    subtitle: 'Milan Kundera',
+    imageUrl: 'https://picsum.photos/500/750?random=2', // Placeholder for book cover
+    aspect: 'tall',
+    caption: 'A profound exploration of existence and heaviness.',
+  },
+  {
+    id: '3',
+    type: 'MUSIC',
+    title: 'Kind of Blue',
+    subtitle: 'Miles Davis',
+    imageUrl: 'https://picsum.photos/500/500?random=3', // Placeholder for album art
+    aspect: 'square',
+    caption: 'Sunday morning jazz essentials.',
+  },
+  {
+    id: '4',
+    type: 'PHOTO',
+    title: 'Urban Geometry',
+    imageUrl: 'https://picsum.photos/800/600?random=4',
+    aspect: 'wide',
+    caption: 'Looking up in Chicago.',
+  },
+  {
+    id: '5',
+    type: 'PHOTO',
+    title: 'Coffee & Code',
+    imageUrl: 'https://picsum.photos/600/600?random=5',
+    aspect: 'square',
+    caption: 'The fuel behind the algorithms.',
+  },
+  {
+    id: '6',
+    type: 'BOOK',
+    title: 'Design of Everyday Things',
+    subtitle: 'Don Norman',
+    imageUrl: 'https://picsum.photos/500/700?random=6',
+    aspect: 'tall',
+    caption: 'Changing how I see door handles forever.',
+  },
+  {
+    id: '7',
+    type: 'PHOTO',
+    title: 'Neon Nights',
+    imageUrl: 'https://picsum.photos/600/900?random=7',
+    aspect: 'tall',
+    caption: 'Cyberpunk vibes in Tokyo.',
+  },
+  {
+    id: '8',
+    type: 'MUSIC',
+    title: 'Random Access Memories',
+    subtitle: 'Daft Punk',
+    imageUrl: 'https://picsum.photos/500/500?random=8',
+    aspect: 'square',
+    caption: 'Give life back to music.',
+  },
+  {
+    id: '9',
+    type: 'PHOTO',
+    title: 'Minimalist Desk',
+    imageUrl: 'https://picsum.photos/800/500?random=9',
+    aspect: 'wide',
+    caption: 'Where the magic happens.',
+  },
+  {
+    id: '10',
+    type: 'BOOK',
+    title: 'Sapiens',
+    subtitle: 'Yuval Noah Harari',
+    imageUrl: 'https://picsum.photos/500/750?random=10',
+    aspect: 'tall',
+    caption: 'A brief history of humankind.',
+  },
+];
